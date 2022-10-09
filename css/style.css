@@ -141,7 +141,7 @@ body {
 .card-btn {
   font-size: clamp(0.88rem, calc(0.81rem + 0.33vw), 1rem);
   font-family: "Lexend Deca", sans-serif;
-  padding: 1rem 2rem;
+  padding: 0.8125rem 2rem;
   border: 0.125rem solid var(--White);
   border-radius: 1.875rem;
   background: var(--White);
@@ -203,7 +203,11 @@ body {
     padding: 3.125rem;
   }
 
+  .card-heading {
+    margin-bottom: 1.875rem;
+  }
+
   .card-paragraph {
-    margin-bottom: 4.375rem;
+    margin-bottom: 5.625rem;
   }
 }
